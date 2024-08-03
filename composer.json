@@ -1,0 +1,19 @@
+{
+    "name": "rrd108/ws-php",
+    "description": "PHP Webscoket Example",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rrd108\\WsPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rrd108",
+            "email": "rrd@webmania.cc"
+        }
+    ],
+    "require": {
+        "cboden/ratchet": "^0.4.4"
+    }
+}

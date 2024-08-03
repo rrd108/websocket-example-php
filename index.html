@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Licit</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Licit</h1>
+      <h2 id="lastBid">waiting...</h2>
+      <div>
+        <input type="number" name="bid" id="bid" />
+        <button onclick="sendBid()">Licitálok</button>
+      </div>
+    </header>
+    <main>
+      <h2>Bejövő üzenetek</h2>
+      <ul id="messages"></ul>
+    </main>
+  </body>
+</html>
